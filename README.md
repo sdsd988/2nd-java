@@ -78,3 +78,13 @@
     - `선택` 완료된 지원서는 회원이름으로 검색이 가능합니다.
 
 
+
+API 명세서
+
+
+         | 유저 영역       |               설명           |           기능 분류
+
+GET  |    /api/applications   |         지원서 조회        |        Application
+Post   |  /api/application/new    |   지원서 생성          |      Application
+delete   |/api/application         |    지원서 삭제          |      Application
+put     |  /api/application         |     지원서 수정        |        Application
