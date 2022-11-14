@@ -88,3 +88,12 @@ GET     /api/applications            지원서 조회               Application
 Post    /api/application/new       지원서 생성               Application
 delete   /api/application            지원서 삭제               Application
 put       /api/application            지원서 수정              Application
+
+| 구분 |  |
+| --- | --- |
+| 기본점수 | 200점 |
+| 코딩 표준 스타일 | 미준수 시 건당 -1점 |
+| +20/-20 | 구현 시 +20점, 미 구현시 -20점 |
+| +20/-10 | 구현 시 +20점, 미 구현시 -10점 |
+| 부분 점수 | 작성 및 구현된 내용에 따라 부분 점수 가감 |
+| 선택 | 구현 시 + 30점, 미구현 시 점수 차감 없음 |
