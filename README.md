@@ -76,3 +76,14 @@
     - `(+20/-10)` 관리자 회원은 각 회원 별 지원서의 상태를 확인할 수 있습니다. (지원 중, 지원완료)
     - `(+20/-10)` 지원완료된 지원서의 경우 지원서 내용 및 합격/불합격 상태값 변경이 가능합니다.
     - `선택` 완료된 지원서는 회원이름으로 검색이 가능합니다.
+
+
+
+API 명세서
+
+
+        유저 영역                  설명                      기능 분류
+
+GET    /api/applications          지원서 조회                Application
+Post   /api/application/new       지원서 생성                Application
+delete /api/application           지원서 삭제                Application
