@@ -82,9 +82,6 @@
 API 명세서
 
 
-         유저 영역                     설명                      기능 분류
 
-| GET |  /api/applications            지원서 조회               Application |
-| Post | /api/application/new       지원서 생성               Application |
-| delete |  /api/application            지원서 삭제               Application |
-| put | /api/application            지원서 수정              Application |
+![image](https://user-images.githubusercontent.com/45227809/201613231-d526fd05-f62e-4f27-8671-7363cce4987e.png)
+
